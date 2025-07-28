@@ -1,26 +1,76 @@
+/* i added a dark background color to the header, and added some padding for space,then i set the text alignment to center */
+header {
+  background-color: #343a40; 
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*this is just basic stylings for the footer*/
+/* i added a light grey background color, padding, and set the text alignment to center, then i set font size*/
+footer {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+/*i just added this to make the links look like buttons, cuz it looks nice and neat,and i added the same backgroun color*/
+.links{
+  text-decoration: none;
+  border: 0.1rem solid black;
+  background-color: #787880;
+  border-radius: .15rem;
+  color: white;
+}
+/*for the buttons,i added a margin to the top, padding for the button, background color, text color, border radius for rounded corners*/
 button {
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    background-color: rgb(167, 167, 184);
+    background-color: #787880;
     color: white;
-    border: none;
     border-radius: 5px;
-    cursor: pointer;
   }
 
-.card{
-  margin : .5rem;
-  border-radius: 10px;
-}
-
-.cardcontainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
+  /*i set display to grid ,and i used grid-template-columns to create a 3 column layout,then i used added a grid-gap to create space between the cards*/
 .container{
-  width: 100%;
+  padding: .15rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  max-width: 1200px;
+}
+/*i added border radius to make the top corners of the card rounded,and i added padding to the top of the image*/
+.card-img-top {
+  padding-top: 2px;
+  border: transparent 1px solid;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/*i set the background color of the body to a light grey color*/
+body{
+  background-color: #edeff1;  
+}
+
+/*i addded this media query to make the grid responsive on bigger screens*/
+@media  (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+/*i added this media query to make the grid responsive on smaller screens*/
+
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
   height: 60vh;
   background-color: #f8f9fa;
   display: flex;
