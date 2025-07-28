@@ -71,13 +71,5 @@ body{
   }
 }
 
-  height: 60vh;
-  background-color: #f8f9fa;
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.container.cl1{
-  display: grid;
-}
 
