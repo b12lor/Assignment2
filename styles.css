@@ -28,7 +28,7 @@ body {
   line-height: 1.6;
 }
 
-/* i styled the links to look like buttons ,cuz itssince we not fousing on that here tho, */
+/* i styled the links to look like buttons, */
 .links {
   display: inline-block;
   text-decoration: none;
@@ -41,7 +41,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* i styled the button with padding, color, and rounded corners */
+/* i added padding,gave it a background color and i made the corners rounded  */
 .btn {
   padding: 0.55rem 1rem;
   background-color: #787880;
@@ -52,7 +52,7 @@ body {
 }
 
 
-/* i added a white background, shadow, rounded corners, and overflow hidden to the card */
+/* i added a white background, box shadow, rounded corners, and overflow hidden to the card ,so that way the contents of the card dont spill out the border radius*/
 .card {
   background: white;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
@@ -81,13 +81,13 @@ body {
   padding: 0.5rem 1rem;
 }
 
-/* i used flexbox to align buttons inside a group horizontally */
+/* i set the displzay to flex to align the  buttons  horizontally */
 .btn-group {
   display: flex;
 }
 
 
-/* i used display grid to arrange the cards in 3 columns and added gap between them */
+/* i set the display to arrange the cards in 3 columns and added gap between them,then i used autofill to make it responsive */
 .container {
   margin: 0 auto;
   padding: 1rem;
