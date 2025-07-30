@@ -5,7 +5,8 @@
   padding: 0;
 }
 
-/* i added a dark background color to the header, white text, some padding, and centered the text */
+
+/* i added a dark background color to the header, i made the text white, i addded padding, and centered the text in the header */
 header {
   background-color: #343a40;
   color: white;
@@ -14,21 +15,21 @@ header {
   font-size: 1.5rem;
 }
 
-/* i centered and spaced the heading section */ 
+/* i centered  the text and spaced the heading section */ 
 .heading {
   text-align: center;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-/* i set background color and font for the body */
+/* i set the background color and i added a font for the body */
 body {
   background-color: #edeff1;
   font-family: sans-serif;
   line-height: 1.6;
 }
 
-/* i styled the links to look like buttons, */
+/* i styled the links in the header section  to look like buttons */
 .links {
   display: inline-block;
   text-decoration: none;
@@ -41,7 +42,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* i added padding,gave it a background color and i made the corners rounded  */
+/* i added padding to the buttons,and i use border radius to create rounded corners,then a right margin*/
 .btn {
   padding: 0.55rem 1rem;
   background-color: #787880;
@@ -62,6 +63,7 @@ body {
 }
 
 /* i added a small padding to the inside of the card body */
+
 .card-body {
   padding: 0.5rem;
 }
@@ -73,7 +75,7 @@ body {
   border-top-right-radius: 0.5rem;
 }
 
-/* i used flexbox to spread out the content inside the card footer */
+/* i set the display to flex to spread out the content inside the card footer,then i used justify content to add a space,then i centered the items*/
 .card-footer {
   display: flex;
   justify-content: space-between;
@@ -81,13 +83,13 @@ body {
   padding: 0.5rem 1rem;
 }
 
-/* i set the displzay to flex to align the  buttons  horizontally */
+/* i set display to flex to align buttons inside a group horizontally */
 .btn-group {
   display: flex;
 }
 
 
-/* i set the display to arrange the cards in 3 columns and added gap between them,then i used autofill to make it responsive */
+/* i set display to grid to arrange the cards in 3 columns and added gap between them */
 .container {
   margin: 0 auto;
   padding: 1rem;
@@ -97,7 +99,7 @@ body {
   max-width: 90vw;
 }
 
-/* i used flexbox to center the grid on the page */
+/* i set the display to flex and i used justify content to center the grid on the page */
 .main-grid {
   display: flex;
   justify-content: center;
@@ -112,6 +114,3 @@ footer {
   font-size: 0.9rem;
   margin-top: 2rem;
 }
-
-
-
